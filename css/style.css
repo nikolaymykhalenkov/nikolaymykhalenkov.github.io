@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: ProximaNova;
+	src: url("../fonts/ProximaNova-Reg.otf");
+}
+@font-face {
+	font-family: ProximaNova-Light;
+	src: url("../fonts/ProximaNova-Light.otf");
+}
+
+body {
+	color: #FFF;
+	font-family: "ProximaNova";
+	font-size: 2em;
+}
+
+body.orange {
+	background-color: #fd7400;
+
+}
