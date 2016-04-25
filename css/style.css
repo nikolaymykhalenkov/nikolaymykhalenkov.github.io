@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 @font-face {
 	font-family: ProximaNova;
@@ -12,12 +13,93 @@
 }
 
 body {
-	color: #FFF;
+	background-color: #FFF;
 	font-family: "ProximaNova";
-	font-size: 2em;
+	color: #212121;
 }
 
-body.orange {
-	background-color: #fd7400;
+header {
+	width: 100%;
+	padding: 44px 0 0 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
+header nav {
+	overflow: hidden;
+	cursor: pointer;
+}
+
+header nav > div {
+	width: 50%;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+header nav div .slider {
+	height: 4px;
+	background-color: #fff;
+	width: 0;
+	transition: width 0.3s ease-in;
+}
+
+header nav div:hover .slider {
+	width:100%;
+}
+
+header nav #tab1 {
+	float: left;
+}
+
+header nav #tab2 {
+	float: right;
+}
+
+header nav h2 {
+	color: #FFF;
+}
+
+body.orange header {
+	background-color: #FFC107;
+}
+
+body.blue header {
+	background-color: #03A9F4;
+}
+
+body.green header {
+	background-color: #8BC34A;
+}
+
+header .name {
+	margin: 0 44px;
+}
+
+header h1 {
+	font-family: "ProximaNova-Light";
+	font-size: 44px;
+	color: #FFF;
+	margin-top: 0;
+}
+
+header h2 {
+	font-family: "ProximaNova-Light";
+	font-size: 28px;
+	color: #FFF;
+}
+
+.content {
+	width: 100%;
+}
+
+.content .tab-content {
+	width: 100%;
+	position: absolute;
+	padding-left: 44px;
+	padding-top: 22px;
+	padding-right: 44px;
+}
+
+.content .tab-content > div {
+	float: left;
+	width: 33%;
 }
