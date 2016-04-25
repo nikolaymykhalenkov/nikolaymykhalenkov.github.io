@@ -70,6 +70,14 @@ body.green header {
 	background-color: #8BC34A;
 }
 
+body.purple header {
+	background-color: #9C27B0;
+}
+
+body.pink header {
+	background-color: #E91E63;
+}
+
 header .name {
 	margin: 0 44px;
 }
