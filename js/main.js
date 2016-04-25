@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var colors = ["orange", "green", "blue"]; 
+	var colors = ["orange", "green", "blue", "purple", "pink"]; 
 	var index = Math.floor(Math.random() * colors.length);
 	$("body").addClass(colors[index]);
 
