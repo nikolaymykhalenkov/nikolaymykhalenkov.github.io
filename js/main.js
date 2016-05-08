@@ -4,9 +4,9 @@ $(document).ready(function() {
 		$("#content-tab").append("<div class='content-item'><h2>About me</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
 	});
 	$("#menu-item-2").click(function() {
-		$("#content-tab").append("<div class='content-item'><h2>Portfolio</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
+		$("#content-tab").append("<div class='content-item'><h2>Portfolio</h2><p>I have created website for Render-Room and Bolgov.</p></div>");
 	});
 	$("#menu-item-3").click(function() {
-		$("#content-tab").append("<div class='content-item'><h2>Contacts</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
+		$("#content-tab").append("<div class='content-item'><h2>Contacts</h2><p>Feel free to mail me on nikkomyk@gmail.com</p></div>");
 	});
 });
