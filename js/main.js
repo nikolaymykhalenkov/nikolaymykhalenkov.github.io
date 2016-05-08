@@ -1,15 +1,12 @@
 $(document).ready(function() {
-	var colors = ["orange", "green", "blue", "purple", "pink"]; 
-	var index = Math.floor(Math.random() * colors.length);
-	$("body").addClass(colors[index]);
 
-	$("#tab1").click(function() {
-		$("#tab2-c").hide();
-		$("#tab1-c").show();
+	$("#menu-item-1").click(function() {
+		$("#content-tab").append("<div class='content-item'><h2>About me</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
 	});
-	$("#tab2").click(function() {
-		$("#tab1-c").hide();
-		$("#tab2-c").show();
+	$("#menu-item-2").click(function() {
+		$("#content-tab").append("<div class='content-item'><h2>Portfolio</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
 	});
-
+	$("#menu-item-3").click(function() {
+		$("#content-tab").append("<div class='content-item'><h2>Contacts</h2><p>I am student from Ukraine and passioned about programming, web-development and game-development.</p></div>");
+	});
 });

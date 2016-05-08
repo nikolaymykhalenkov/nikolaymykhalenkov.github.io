@@ -42,7 +42,7 @@ header nav h2 {
 }
 
 header .name {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	background-color: #0a0907;
 	padding: 0 10px;
 }
@@ -50,7 +50,7 @@ header .name {
 	border: 5px solid #887148;
 	border-image: url("../img/border2.png") 5 5 5 5 repeat;
 	padding: 10px;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	display: flex;
 	justify-content: space-between;
 }
@@ -64,7 +64,6 @@ nav .menu-item {
 	
 }
 nav .menu-item:hover {
-	
 	color: #c9c3ad;
 }
 .tabs {
@@ -72,7 +71,14 @@ nav .menu-item:hover {
 	border: 3px solid #887148;
 	border-image: url("../img/border.png") 3 3 3 3 repeat;
 	padding: 5px;
+	height: 400px;
+	overflow: auto;
 }
 
+.content-item h2{
+	color: #c9c3ad;
+	font-size: 1.1em;
+	font-weight: normal;
+}
 
 
