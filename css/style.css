@@ -11,103 +11,68 @@
 	font-family: ProximaNova-Light;
 	src: url("../fonts/ProximaNova-Light.otf");
 }
+@font-face {
+	font-family: MagicCards;
+	src: url("../fonts/MagicCardsNormal.ttf");
+}
 
 body {
-	background-color: #FFF;
-	font-family: "ProximaNova";
-	color: #212121;
+	background-color: #0a0907;
+	font-family: "MagicCards";
+	color: #aea270;
+	padding: 44px;
+	word-spacing: 5px;
+	cursor: url("../img/CURSOR_DROP.png"), auto;
+	height: 100vh;
 }
-
+main {
+	border: 5px solid #887148;
+	border-image: url("../img/border2.png") 5 5 5 5 repeat;
+}
 header {
 	width: 100%;
-	padding: 44px 0 0 0;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-header nav {
-	overflow: hidden;
-	cursor: pointer;
-}
-
-header nav > div {
-	width: 50%;
-	padding: 20px 0 0 0;
-	text-align: center;
-}
-
-header nav div .slider {
-	height: 4px;
-	background-color: #fff;
-	width: 0;
-	transition: width 0.3s ease-in;
-}
-
-header nav div:hover .slider {
-	width:100%;
-}
-
-header nav #tab1 {
-	float: left;
-}
-
-header nav #tab2 {
-	float: right;
+	background-image: url("../img/header.png");
+	height: 21px;
+	display: flex;
+	justify-content: center; 
 }
 
 header nav h2 {
 	color: #FFF;
 }
 
-body.orange header {
-	background-color: #FFC107;
-}
-
-body.blue header {
-	background-color: #03A9F4;
-}
-
-body.green header {
-	background-color: #8BC34A;
-}
-
-body.purple header {
-	background-color: #9C27B0;
-}
-
-body.pink header {
-	background-color: #E91E63;
-}
-
 header .name {
-	margin: 0 44px;
+	font-size: 1.3em;
+	background-color: #0a0907;
+	padding: 0 10px;
 }
-
-header h1 {
-	font-family: "ProximaNova-Light";
-	font-size: 44px;
-	color: #FFF;
-	margin-top: 0;
-}
-
-header h2 {
-	font-family: "ProximaNova-Light";
-	font-size: 28px;
-	color: #FFF;
-}
-
 .content {
-	width: 100%;
+	border: 5px solid #887148;
+	border-image: url("../img/border2.png") 5 5 5 5 repeat;
+	padding: 10px;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: space-between;
+}
+nav {
+	width: 24%;
+	border: 3px solid #887148;
+	border-image: url("../img/border.png") 3 3 3 3 repeat;
+	padding: 5px;
+}
+nav .menu-item {
+	
+}
+nav .menu-item:hover {
+	
+	color: #c9c3ad;
+}
+.tabs {
+	width: 74%;
+	border: 3px solid #887148;
+	border-image: url("../img/border.png") 3 3 3 3 repeat;
+	padding: 5px;
 }
 
-.content .tab-content {
-	width: 100%;
-	position: absolute;
-	padding-left: 44px;
-	padding-top: 22px;
-	padding-right: 44px;
-}
 
-.content .tab-content > div {
-	float: left;
-	width: 33%;
-}
+
