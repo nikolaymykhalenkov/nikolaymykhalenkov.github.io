@@ -83,6 +83,7 @@ nav .menu-item:hover {
 
 .content-item a:link, .content-item a:visited {
 	color: #6b78c6;
+	text-decoration: none;
 }
 
 .content-item a:visited, .content-item a:active {
